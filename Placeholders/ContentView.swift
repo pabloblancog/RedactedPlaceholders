@@ -27,6 +27,7 @@ struct ContentView: View {
                     .font(.body)
                     .foregroundColor(.secondary)
             }
+            .padding()
             .redacted(when: isLoading, redactionType: .customPlaceholder)
         }
         .padding()
